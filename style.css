@@ -1,0 +1,99 @@
+.head {
+    
+}
+
+.top-head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.top-head li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.head-left {
+    float: left;
+}
+
+input  {
+    height: 40px;
+    width: 600px;
+}
+
+.head-right {
+    float: right;
+}
+
+.bottom-head {
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 100%;
+    margin: 0 120px;
+    border-bottom: 1px rgb(102, 102, 102) solid;
+    padding-bottom: 10px;
+}
+
+.bottom-head li {
+    display: inline;
+    padding: 0 15px;
+    
+}
+
+.bottom-head li a {
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.headb-left {
+    float: left;
+    
+}
+
+.headb-right {
+    float: right;
+}
+
+.main {
+    text-align: left;
+    width: 600px;
+    margin: 200px 170px;
+}
+
+.results-time {
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    
+    margin-top: 30px;
+    margin-bottom: 0.5px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: rgb(26, 13, 171);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.site {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(0, 102, 33);
+
+}
+
+.desc {
+    margin-top: 0;
+    margin-bottom: 0;
+}
