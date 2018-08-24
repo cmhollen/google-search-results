@@ -1,54 +1,91 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  body {
+      height: 100%;
+      margin: 0;
+      padding; 0;
+  }
+
 .head {
+    width: 100%;
+    min-width: 700px;
+    height: 120px;
+    background: #fafafa;
+    border-bottom: 1px #d2d1d1 solid;
     
 }
 
-.top-head {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin-bottom: 0;
+
+
+ul li {
+    display: inline-block;
+    margin: 8px;
+    vertical-align: top;
 }
 
-.top-head li {
+
+.logo {
     display: inline;
-    padding: 0 20px;
+    float: left;
+    margin: 15px;
 }
 
-.head-left {
-    float: left;
-}
 
 input  {
+    display: inline-block;
+    vertical-align: top;
     height: 40px;
-    width: 600px;
+    min-width: 70%;
+    margin: 15px 5px;
+    
 }
 
 .head-right {
     float: right;
+    margin-top: 30px;
+    margin-left: 5px;
+    position: relative;
+    top: -90px;
+    left: -5px;
+}
+
+.head-right a{
+    text-decoration: none;
+    color: black;
+}
+
+.head-right a:hover {
+    text-decoration: underline;
 }
 
 .bottom-head {
-    position: absolute;
-    top: 100;
-    left: 0;
-    width: 100%;
-    margin: 0 120px;
-    border-bottom: 1px rgb(102, 102, 102) solid;
-    padding-bottom: 10px;
-}
-
-.bottom-head li {
-    display: inline;
-    padding: 0 15px;
+    
+    margin-right: 110px;
+    margin-left: 85px;
+  
     
 }
-
 .bottom-head li a {
+    
     color: rgb(102, 102, 102);
     font-size: 13px;
     text-decoration: none;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.bottom-head li a:hover {
+    color: black;
+}
+
+#all a{
+    font-weight: bold;
+    color: rgb(26, 115, 232);
+    padding: 0 5px 10px 5px;
+    border-bottom: 3px rgb(26, 115, 232) solid;
 }
 
 .headb-left {
@@ -61,15 +98,19 @@ input  {
 }
 
 .main {
-    text-align: left;
-    width: 600px;
-    margin: 200px 170px;
+    display: block;
+    position: relative;
+    left: 120px;
+    max-width: 80%;
+    margin: 1%;
 }
 
 .results-time {
     color: rgb(128, 128, 128);
     font-size: 13px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    padding-top: 10px;
 }
 
 h3 {
@@ -86,6 +127,10 @@ h3 a {
     font-size: 18px;
 }
 
+h3 a:hover {
+    text-decoration: underline;
+}
+
 .site {
     margin-top: 0;
     margin-bottom: 0;
@@ -96,4 +141,100 @@ h3 a {
 .desc {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.related {
+    height: 200px;
+    width: 450px;
+    text-align: left;
+    margin: 25px 0px 5px 0px;
+    padding: 5px 5px 5px 0px;
+}
+
+.related-head {
+    font-size: 18px;
+}
+
+.related-list{
+  display: inline-block;
+  height: 180px;
+  padding: 0;
+  margin: 0px 5px 5px 0px;
+}
+
+.related-list li {
+    margin: 5px 5px 5px 0px;
+    width: 40%;
+}
+
+.related-list li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(26, 13, 171);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.related-list li a:hover {
+    text-decoration: underline;
+    
+}
+
+.google-next {
+    width: 100%;
+    text-align: center;
+}
+
+.next-container a {
+    padding: 5px;
+    color: rgb(66, 133, 244);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.next-container a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    clear: both;
+    margin: auto;
+    display: block;
+    width: 100%; 
+    background: rgb(242, 242, 242);
+    text-align: center;
+ }
+
+ .location {
+     color: rgb(170, 170, 170);
+     font-size: 13px;
+     font-family: Roboto, arial, sans-serif;
+     margin: 0;
+     
+ }
+
+ .location a {
+     color: rgb(119, 119, 119);
+     font-size: 13px;
+     font-family: Roboto, arial, sans-serif;
+     text-decoration: none;
+ }
+ .location a:hover {
+    color: rgb(41, 41, 41);
+}
+
+.foot {
+    margin: 0;
+    
+}
+
+.foot li a {
+    color: rgb(119, 119, 119);
+    font-size: 13px;
+    font-family: Roboto, arial, sans-serif;
+    text-decoration: none; 
+}
+
+.foot li a:hover {
+    color: rgb(41, 41, 41);
 }
